@@ -1,7 +1,7 @@
 'atom-text-editor[data-grammar~="tasklist"]':
-  'ctrl-space': 'tasklist-tools:toggle'
-  'ctrl-*'    : 'tasklist-tools:todo'
-  'ctrl-+'    : 'tasklist-tools:done'
-  'ctrl--'    : 'tasklist-tools:fail'
-  'alt-+'     : 'tasklist-tools:stamp'
-  'alt-*'     : 'tasklist-tools:clean'
+  'alt-enter': 'tasklist-tools:toggle'
+  'alt-*'    : 'tasklist-tools:todo'
+  'alt-+'    : 'tasklist-tools:done'
+  'alt--'    : 'tasklist-tools:fail'
+  'alt-.'    : 'tasklist-tools:stamp'
+  'alt-/'    : 'tasklist-tools:clean'
