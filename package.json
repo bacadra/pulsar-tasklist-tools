@@ -1,0 +1,28 @@
+{
+  "description": "Tasklist tools",
+  "keywords": [
+    "bacadra",
+    "tasklist",
+    "tools"
+  ],
+  "main": "./lib/main",
+  "name": "tasklist-tools",
+  "homepage": "https://github.com/bacadra/atom-tasklist-tools",
+  "url": "https://github.com/bacadra/atom-tasklist-tools",
+  "repository": "https://github.com/bacadra/atom-tasklist-tools",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "date-and-time": "^3.0.2"
+  },
+  "activationCommands": {
+    "atom-text-editor": [
+      "tasklist-tools:toggle",
+      "tasklist-tools:todo",
+      "tasklist-tools:done",
+      "tasklist-tools:fail",
+      "tasklist-tools:stamp",
+      "tasklist-tools:clean"
+    ]
+  }
+}
