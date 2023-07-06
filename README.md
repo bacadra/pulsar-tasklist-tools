@@ -1,4 +1,4 @@
-# Tasklist-tools
+# tasklist-tools
 
 <p align="center">
   <a href="https://github.com/bacadra/atom-tasklist-tools/tags">
@@ -14,6 +14,10 @@
   <img src="https://img.shields.io/github/license/bacadra/atom-tasklist-tools?style=for-the-badge&color=blue" alt="Licence">
   </a>
 </p>
+
+A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/atom-language-tasklist) package.
+
+**TL;DR**: press `Alt-Enter` and toggle state of ticks or create it if doesn't exists.
 
 ## Installation
 
@@ -32,6 +36,19 @@ The package has compability with [Pulsar](https://pulsar-edit.dev/) and can be i
     ppm install bacadra/atom-tasklist-tools
 
 or directly [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) from Pulsar package store.
+
+## List of commands
+
+A command are available in `atom-text-editor`, but shortcuts are set only in `tasklist` grammar.
+
+| Shorcut | Command | Description |
+| -: | - | - |
+| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle state of selected items by `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change state of selected items as `☐` |
+| <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change state of selected items as `✔` |
+| <div style="white-space:nowrap">`Alt--`</div> | <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change state of selected items as `✘` |
+| <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`tasklist-tools:stamp`</div> | add stamp to selected items or update it if already exists |
+| <div style="white-space:nowrap">`Alt-/`</div> | <div style="white-space:nowrap">`tasklist-tools:clean`</div> | clean stamp of selected items |
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
