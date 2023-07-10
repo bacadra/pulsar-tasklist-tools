@@ -1,11 +1,9 @@
 'context-menu':
   'atom-text-editor[data-grammar~="tasklist"]': [
     { 'type': 'separator' }
-    { 'label': 'Toggle Task'     , 'command': 'tasklist-tools:toggle' }
-    { 'label': 'Set Task as Todo', 'command': 'tasklist-tools:todo'   }
-    { 'label': 'Set Task as Done', 'command': 'tasklist-tools:done'   }
-    { 'label': 'Set Task as Fail', 'command': 'tasklist-tools:fail'   }
-    { 'label': 'Update Stamps'   , 'command': 'tasklist-tools:stamp'  }
-    { 'label': 'Clean Stamps'    , 'command': 'tasklist-tools:clean'  }
+    { 'label': 'Toggle Tasks'     , 'command': 'tasklist-tools:toggle' }
+    { 'label': 'Set Tasks as Todo', 'command': 'tasklist-tools:todo'   }
+    { 'label': 'Set Tasks as Done', 'command': 'tasklist-tools:done'   }
+    { 'label': 'Set Tasks as Fail', 'command': 'tasklist-tools:fail'   }
     { 'type': 'separator' }
   ]

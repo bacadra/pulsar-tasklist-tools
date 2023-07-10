@@ -12,17 +12,13 @@
   "repository": "https://github.com/bacadra/atom-tasklist-tools",
   "version": "0.0.1",
   "license": "MIT",
-  "dependencies": {
-    "date-and-time": "^3.0.2"
-  },
+  "dependencies": {},
   "activationCommands": {
     "atom-text-editor": [
       "tasklist-tools:toggle",
       "tasklist-tools:todo",
       "tasklist-tools:done",
-      "tasklist-tools:fail",
-      "tasklist-tools:stamp",
-      "tasklist-tools:clean"
+      "tasklist-tools:fail"
     ]
   }
 }

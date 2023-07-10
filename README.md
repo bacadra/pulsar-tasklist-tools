@@ -17,7 +17,7 @@
 
 A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/atom-language-tasklist) package.
 
-**TL;DR**: press `Alt-Enter` and toggle state of ticks or create it if doesn't exists.
+Press `Ctrl-Enter` and toggle state of tasks or create it if doesn't exists.
 
 ## Installation
 
@@ -41,14 +41,12 @@ or directly [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools
 
 A command are available in `atom-text-editor`, but shortcuts are set only in `tasklist` grammar.
 
-| Shorcut | Command | Description |
-| -: | - | - |
-| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle state of selected items by `☐` -> `✔` -> `✘` -> `☐` cycle |
-| <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change state of selected items as `☐` |
-| <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change state of selected items as `✔` |
-| <div style="white-space:nowrap">`Alt--`</div> | <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change state of selected items as `✘` |
-| <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`tasklist-tools:stamp`</div> | add stamp to selected items or update it if already exists |
-| <div style="white-space:nowrap">`Alt-/`</div> | <div style="white-space:nowrap">`tasklist-tools:clean`</div> | clean stamp of selected items |
+| Command | Description |
+| - | - |
+| <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle state of selected items by `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change state of selected items as `☐` |
+| <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change state of selected items as `✔` |
+| <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change state of selected items as `✘` |
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
