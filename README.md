@@ -17,7 +17,7 @@
 
 A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/atom-language-tasklist) package.
 
-Press `Ctrl-Enter` and toggle state of tasks or create it if doesn't exists.
+Press `Alt-Enter` and toggle state of tasks or create it if doesn't exists.
 
 ## Installation
 
