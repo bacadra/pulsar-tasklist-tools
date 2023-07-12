@@ -16,6 +16,7 @@
   "activationCommands": {
     "atom-text-editor": [
       "tasklist-tools:toggle",
+      "tasklist-tools:high",
       "tasklist-tools:todo",
       "tasklist-tools:done",
       "tasklist-tools:fail"
