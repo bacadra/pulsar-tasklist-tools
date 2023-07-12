@@ -45,13 +45,13 @@ Alternatively, you can directly install [tasklist-tools](https://web.pulsar-edit
 
 A command are available in `atom-text-editor:not([mini])`, but shortcuts are preset only in `atom-text-editor[data-grammar~="tasklist"]:not([mini])` space.
 
-| Command | Description |
-| - | - |
-| <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle tick of selected tasks by `▷|☐` -> `✔` -> `✘` -> `☐` cycle |
-| <div style="white-space:nowrap">`tasklist-tools:high`</div> | add or change tick of selected tasks as `▷` |
-| <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change tick of selected tasks as `☐` |
-| <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change tick of selected tasks as `✔` |
-| <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change tick of selected tasks as `✘` |
+| Shortcut | Command | Description |
+| -: | - | - |
+| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle tick of selected tasks by `▷` `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`Alt-/`</div> | <div style="white-space:nowrap">`tasklist-tools:high`</div> | add or change tick of selected tasks as `▷` |
+| <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change tick of selected tasks as `☐` |
+| <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change tick of selected tasks as `✔` |
+| <div style="white-space:nowrap">`Alt--`</div> | <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change tick of selected tasks as `✘` |
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
