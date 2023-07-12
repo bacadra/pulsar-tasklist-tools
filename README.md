@@ -43,14 +43,14 @@ Alternatively, you can directly install [tasklist-tools](https://web.pulsar-edit
 
 ## List of commands
 
-A command are available in `atom-text-editor`, but shortcuts are set only in `tasklist` grammar.
+A command are available in `atom-text-editor:not([mini])`, but shortcuts are preset only in `atom-text-editor[data-grammar~="tasklist"]:not([mini])` space.
 
 | Command | Description |
 | - | - |
-| <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle state of selected items by `☐` -> `✔` -> `✘` -> `☐` cycle |
-| <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change state of selected items as `☐` |
-| <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change state of selected items as `✔` |
-| <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change state of selected items as `✘` |
+| <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle tick of selected tasks by `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change tick of selected tasks as `☐` |
+| <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change tick of selected tasks as `✔` |
+| <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change tick of selected tasks as `✘` |
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
