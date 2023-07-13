@@ -47,7 +47,8 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 
 | Shortcut | Command | Description |
 | -: | - | - |
-| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle tick of selected tasks by `▷` `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`tasklist-tools:toggle`</div> | add or toggle tick of selected tasks by `•` `▷` `☐` -> `✔` -> `✘` -> `☐` cycle |
+| <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`tasklist-tools:info`</div> | add or change tick of selected tasks as `•` |
 | <div style="white-space:nowrap">`Alt-/`</div> | <div style="white-space:nowrap">`tasklist-tools:high`</div> | add or change tick of selected tasks as `▷` |
 | <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change tick of selected tasks as `☐` |
 | <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change tick of selected tasks as `✔` |
