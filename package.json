@@ -22,5 +22,8 @@
       "tasklist-tools:done",
       "tasklist-tools:fail"
     ]
-  }
+  },
+  "activationHooks": [
+    "language-tasklist:grammar-used"
+  ]
 }
