@@ -20,7 +20,8 @@
       "tasklist-tools:high",
       "tasklist-tools:todo",
       "tasklist-tools:done",
-      "tasklist-tools:fail"
+      "tasklist-tools:fail",
+      "tasklist-tools:translate"
     ]
   },
   "activationHooks": [

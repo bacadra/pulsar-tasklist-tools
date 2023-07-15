@@ -53,6 +53,7 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 | <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`tasklist-tools:todo`</div> | add or change tick of selected tasks as `☐` |
 | <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`tasklist-tools:done`</div> | add or change tick of selected tasks as `✔` |
 | <div style="white-space:nowrap">`Alt--`</div> | <div style="white-space:nowrap">`tasklist-tools:fail`</div> | add or change tick of selected tasks as `✘` |
+| | <div style="white-space:nowrap">`tasklist-tools:translate`</div> | translate markdown-style ticks and bullets to tasklist-style, e.g. `- [ ]` -> `☐`, `* [X]` -> `✔` |
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
