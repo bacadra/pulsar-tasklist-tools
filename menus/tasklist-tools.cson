@@ -2,10 +2,10 @@
   'atom-text-editor[data-grammar~="tasklist"]:not([mini])': [
     { 'type': 'separator' }
     { 'label': 'Toggle Tasks'     , 'command': 'tasklist-tools:toggle' }
-    { 'label': 'Set Tasks as Info', 'command': 'tasklist-tools:info'   }
     { 'label': 'Set Tasks as High', 'command': 'tasklist-tools:high'   }
     { 'label': 'Set Tasks as Todo', 'command': 'tasklist-tools:todo'   }
     { 'label': 'Set Tasks as Done', 'command': 'tasklist-tools:done'   }
     { 'label': 'Set Tasks as Fail', 'command': 'tasklist-tools:fail'   }
+    { 'label': 'Set Tasks as Info', 'command': 'tasklist-tools:info'   }
     { 'type': 'separator' }
   ]

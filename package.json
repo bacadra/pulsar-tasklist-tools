@@ -16,15 +16,22 @@
   "activationCommands": {
     "atom-text-editor": [
       "tasklist-tools:toggle",
-      "tasklist-tools:info",
       "tasklist-tools:high",
       "tasklist-tools:todo",
       "tasklist-tools:done",
       "tasklist-tools:fail",
+      "tasklist-tools:info",
       "tasklist-tools:translate"
     ]
   },
   "activationHooks": [
     "language-tasklist:grammar-used"
-  ]
+  ],
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
 }
