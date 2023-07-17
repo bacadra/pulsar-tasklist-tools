@@ -10,7 +10,7 @@
   "homepage": "https://github.com/bacadra/atom-tasklist-tools",
   "url": "https://github.com/bacadra/atom-tasklist-tools",
   "repository": "https://github.com/bacadra/atom-tasklist-tools",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "license": "MIT",
   "dependencies": {},
   "activationCommands": {
