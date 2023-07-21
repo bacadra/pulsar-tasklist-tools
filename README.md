@@ -59,7 +59,7 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 
 ![status-bar](https://github.com/bacadra/atom-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
 
-Status-bar has counter of each task type. Click on it to move to next type task.
+Status-bar has counter of each task type. Click on it to move cursor to next one.
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
