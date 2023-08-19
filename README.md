@@ -1,45 +1,29 @@
 # tasklist-tools
 
 <p align="center">
-  <a href="https://github.com/bacadra/atom-tasklist-tools/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/atom-tasklist-tools?style=for-the-badge&label=Latest&color=blue" alt="Latest">
+  <a href="https://github.com/bacadra/pulsar-tasklist-tools/tags">
+  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-tasklist-tools?style=for-the-badge&label=Latest&color=blue" alt="Latest">
   </a>
-  <a href="https://github.com/bacadra/atom-tasklist-tools/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/atom-tasklist-tools?style=for-the-badge&color=blue" alt="OpenIssues">
+  <a href="https://github.com/bacadra/pulsar-tasklist-tools/issues">
+  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="OpenIssues">
   </a>
-  <a href="https://github.com/bacadra/atom-tasklist-tools/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/atom-tasklist-tools?style=for-the-badge&color=blue" alt="Language">
+  <a href="https://github.com/bacadra/pulsar-tasklist-tools/blob/master/package.json">
+  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="Language">
   </a>
-  <a href="https://github.com/bacadra/atom-tasklist-tools/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/atom-tasklist-tools?style=for-the-badge&color=blue" alt="Licence">
+  <a href="https://github.com/bacadra/pulsar-tasklist-tools/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="Licence">
   </a>
 </p>
 
-A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/atom-language-tasklist) package.
+A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/pulsar-language-tasklist) package.
 
 Press `Alt-Enter` or middle click to toggle state of tasks or create it if doesn't exists.
 
 ## Installation
 
-### Atom Text Editor
+To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`.
 
-The official Atom packages store has been [disabled](https://github.blog/2022-06-08-sunsetting-atom/). To obtain the latest version, please run the following shell command:
-
-```shell
-apm install bacadra/atom-tasklist-tools
-```
-
-This will allow you to directly download the package from the GitHub repository.
-
-### Pulsar Text Editor
-
-The package is compatible with [Pulsar](https://pulsar-edit.dev/) and can be installed using the following command:
-
-```shell
-ppm install bacadra/atom-tasklist-tools
-```
-
-Alternatively, you can directly install [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) from the Pulsar package store.
+Alternatively, run `ppm install bacadra/pulsar-tasklist-tools` to install a package directly from Github repository.
 
 ## List of commands
 
@@ -57,7 +41,7 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 
 ## Status-bar
 
-![status-bar](https://github.com/bacadra/atom-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
+![status-bar](https://github.com/bacadra/pulsar-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
 
 Status-bar has counter of each task type. Click on it to move cursor to next one.
 
