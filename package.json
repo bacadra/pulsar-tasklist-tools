@@ -7,13 +7,13 @@
   ],
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
-  },  
+  },
   "main": "./lib/main",
   "name": "tasklist-tools",
   "homepage": "https://github.com/bacadra/pulsar-tasklist-tools",
   "url": "https://github.com/bacadra/pulsar-tasklist-tools",
   "repository": "https://github.com/bacadra/pulsar-tasklist-tools",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "license": "MIT",
   "dependencies": {},
   "activationCommands": {
