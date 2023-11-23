@@ -39,6 +39,10 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 | <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`&:info`</div> | add or change tick of selected tasks as `•` |
 | | <div style="white-space:nowrap">`&:translate`</div> | translate markdown-style ticks and bullets to tasklist-style, e.g. `- [ ]` -> `☐`, `* [X]` -> `✔` |
 
+## Archive
+
+There is no explicit definition of archive, but a command `tasklist-tools:move-to-last-header` can used. It move selected lines next to line next to last header.
+
 ## Status-bar
 
 ![status-bar](https://github.com/bacadra/pulsar-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
