@@ -25,7 +25,11 @@
       "tasklist-tools:fail",
       "tasklist-tools:info",
       "tasklist-tools:translate",
-      "tasklist-tools:move-to-last-header"
+      "tasklist-tools:move-items-to-last-header",
+      "tasklist-tools:move-items-to-next-header",
+      "tasklist-tools:move-to-last-header",
+      "tasklist-tools:move-to-next-header",
+      "tasklist-tools:move-to-previous-header"
     ]
   },
   "activationHooks": [

@@ -39,6 +39,20 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 | <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`&:info`</div> | add or change tick of selected tasks as `•` |
 | | <div style="white-space:nowrap">`&:translate`</div> | translate markdown-style ticks and bullets to tasklist-style, e.g. `- [ ]` -> `☐`, `* [X]` -> `✔` |
 
+## Move to header
+
+There are methods to make it easier to navigate through the document.
+
+- `tasklist-tools:move-items-to-next-header`
+- `tasklist-tools:move-items-to-last-header`
+- `tasklist-tools:move-to-next-header`
+- `tasklist-tools:move-to-previous-header`
+- `tasklist-tools:move-to-last-header`
+
+## Outline
+
+An outline is supported by [navigation-panel](https://github.com/bacadra/pulsar-navigation-panel).
+
 ## Archive
 
 There is no explicit definition of archive, but a command `tasklist-tools:move-to-last-header` can used. It move selected lines next to line next to last header.
