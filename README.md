@@ -21,9 +21,7 @@ Press `Alt-Enter` or middle click to toggle state of tasks or create it if doesn
 
 ## Installation
 
-To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`.
-
-Alternatively, you can run `ppm install bacadra/pulsar-tasklist-tools` to install a package directly from the Github repository.
+To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`. Alternatively, you can run `ppm install bacadra/pulsar-tasklist-tools` to install a package directly from the Github repository.
 
 ## List of commands
 
