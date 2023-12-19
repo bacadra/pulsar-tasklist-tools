@@ -41,11 +41,11 @@ A command are available in `atom-text-editor:not([mini])`, but shortcuts are pre
 
 There are methods to make it easier to navigate through the document.
 
-- `tasklist-tools:move-items-to-next-header`
-- `tasklist-tools:move-items-to-last-header`
-- `tasklist-tools:move-to-next-header`
-- `tasklist-tools:move-to-previous-header`
-- `tasklist-tools:move-to-last-header`
+- `tasklist-tools:move-items-to-next-header`: move selected items to next header
+- `tasklist-tools:move-items-to-last-header`: move selected items to last header
+- `tasklist-tools:move-to-next-header`: set cursor position equal to next header
+- `tasklist-tools:move-to-previous-header`: set cursor position equal to previous header
+- `tasklist-tools:move-to-last-header`: set cursor position equal to last header
 
 ## Outline
 
