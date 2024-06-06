@@ -1,20 +1,5 @@
 # tasklist-tools
 
-<p align="center">
-  <a href="https://github.com/bacadra/pulsar-tasklist-tools/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-tasklist-tools?style=for-the-badge&label=Latest&color=blue" alt="Latest">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-tasklist-tools/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="OpenIssues">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-tasklist-tools/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="Language">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-tasklist-tools/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-tasklist-tools?style=for-the-badge&color=blue" alt="Licence">
-  </a>
-</p>
-
 A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/pulsar-language-tasklist) package.
 
 Press `Alt-Enter` or middle click to toggle state of tasks or create it if doesn't exists.
@@ -61,6 +46,6 @@ There is no explicit definition of archive, but a command `tasklist-tools:move-t
 
 Status-bar has counter of each task type. Click on it to move cursor to next one.
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
 If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
