@@ -1,28 +1,30 @@
 # tasklist-tools
 
-A set of tools to work with tasklist. A grammar has been provided by [language-tasklist](https://github.com/bacadra/pulsar-language-tasklist) package.
-
-Press `Alt-Enter` or middle click to toggle state of tasks or create it if doesn't exists.
+A superset of commands to improve tasklist workflow. A grammar supply package is required, e.g. [language-tasklist](https://github.com/bacadra/pulsar-language-tasklist).
 
 ## Installation
 
 To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`. Alternatively, you can run `ppm install bacadra/pulsar-tasklist-tools` to install a package directly from the Github repository.
 
-## List of commands
+## Commands
 
 A command are available in `atom-text-editor:not([mini])`, but shortcuts are preset only in `atom-text-editor[data-grammar~="tasklist"]:not([mini])` space.
 
-| Shortcut | Command | Description |
-| -: | - | - |
-| <div style="white-space:nowrap">`Alt-Enter`</div> | <div style="white-space:nowrap">`&:toggle`</div> | add or toggle tick of selected tasks by `▷` `☐` `•` -> `✔` -> `✘` -> `☐` cycle |
-| <div style="white-space:nowrap">`Alt-/`</div> | <div style="white-space:nowrap">`&:high`</div> | add or change tick of selected tasks as `▷` |
-| <div style="white-space:nowrap">`Alt-*`</div> | <div style="white-space:nowrap">`&:todo`</div> | add or change tick of selected tasks as `☐` |
-| <div style="white-space:nowrap">`Alt-+`</div> | <div style="white-space:nowrap">`&:done`</div> | add or change tick of selected tasks as `✔` |
-| <div style="white-space:nowrap">`Alt--`</div> | <div style="white-space:nowrap">`&:fail`</div> | add or change tick of selected tasks as `✘` |
-| <div style="white-space:nowrap">`Alt-.`</div> | <div style="white-space:nowrap">`&:info`</div> | add or change tick of selected tasks as `•` |
-| | <div style="white-space:nowrap">`&:translate`</div> | translate markdown-style ticks and bullets to tasklist-style, e.g. `- [ ]` -> `☐`, `* [X]` -> `✔` |
+Command | Shortcut | Description
+-: | - | -
+`.toggle` | `Alt-Enter` | add or toggle tick of selected tasks by `▷` `☐` `•` -> `✔` -> `✘` -> `☐` cycle
+`.high` | `Alt-/` | add or change tick of selected tasks as `▷`
+`.todo` | `Alt-*` | add or change tick of selected tasks as `☐`
+`.done` | `Alt-+` | add or change tick of selected tasks as `✔`
+`.fail` | `Alt--` | add or change tick of selected tasks as `✘`
+`.info` | `Alt-.` | add or change tick of selected tasks as `•`
+`.translate` | | translate markdown-style ticks and bullets to tasklist-style, e.g. `- [ ]` -> `☐`, `* [X]` -> `✔`
 
-## Move to header
+## Mouse support
+
+Press MiddleClick to toggle state of tasks or create it if doesn't exists.
+
+## Move item to header
 
 There are methods to make it easier to navigate through the document.
 
@@ -48,4 +50,4 @@ Status-bar has counter of each task type. Click on it to move cursor to next one
 
 # Contributing
 
-If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
