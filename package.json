@@ -13,7 +13,7 @@
   "homepage": "https://github.com/bacadra/pulsar-tasklist-tools",
   "url": "https://github.com/bacadra/pulsar-tasklist-tools",
   "repository": "https://github.com/bacadra/pulsar-tasklist-tools",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "dependencies": {},
   "activationCommands": {
