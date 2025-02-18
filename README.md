@@ -1,10 +1,10 @@
 # tasklist-tools
 
-A superset of commands to improve tasklist workflow. A grammar supply package is required, e.g. [language-tasklist](https://github.com/bacadra/pulsar-language-tasklist).
+A superset of commands to improve tasklist workflow. A grammar supply package is required, e.g. [language-tasklist](https://github.com/asiloisad/pulsar-language-tasklist).
 
 ## Installation
 
-To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`. Alternatively, you can run `ppm install bacadra/pulsar-tasklist-tools` to install a package directly from the Github repository.
+To install `tasklist-tools` search for [tasklist-tools](https://web.pulsar-edit.dev/packages/tasklist-tools) in the Install pane of the Pulsar settings or run `ppm install tasklist-tools`. Alternatively, you can run `ppm install asiloisad/pulsar-tasklist-tools` to install a package directly from the Github repository.
 
 ## Commands
 
@@ -36,7 +36,7 @@ There are methods to make it easier to navigate through the document.
 
 ## Outline
 
-An outline is supported by [navigation-panel](https://github.com/bacadra/pulsar-navigation-panel).
+An outline is supported by [navigation-panel](https://github.com/asiloisad/pulsar-navigation-panel).
 
 ## Archive
 
@@ -44,7 +44,7 @@ There is no explicit definition of archive, but a command `tasklist-tools:move-t
 
 ## Status-bar
 
-![status-bar](https://github.com/bacadra/pulsar-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
+![status-bar](https://github.com/asiloisad/pulsar-tasklist-tools/blob/master/assets/status-bar.png?raw=true)
 
 Status-bar has counter of each task type. Click on it to move cursor to next one.
 

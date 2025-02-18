@@ -1,7 +1,7 @@
 {
   "name": "tasklist-tools",
   "description": "A superset of commands to improve tasklist workflow",
-  "repository": "https://github.com/bacadra/pulsar-tasklist-tools",
+  "repository": "https://github.com/asiloisad/pulsar-tasklist-tools",
   "keywords": [
     "tasklist",
     "tools"
