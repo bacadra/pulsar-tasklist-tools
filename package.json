@@ -37,5 +37,21 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
+  },
+  "configSchema": {
+    "mouseToggle": {
+      "order": 1,
+      "title": "Mouse toggler",
+      "description": "Middle-click to toggle the state of the task.",
+      "type": "boolean",
+      "default": true
+    },
+    "statusBar": {
+      "order": 2,
+      "title": "Status bar icons",
+      "description": "Show task summary in the status bar.",
+      "type": "boolean",
+      "default": true
+    }
   }
 }
